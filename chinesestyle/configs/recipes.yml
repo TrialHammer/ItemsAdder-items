@@ -246,18 +246,17 @@ recipes:
         A: book
         B: blue_dye
         C: string
-        D: string
       result:
         item: chinesestyle:chinese_book
         amount: 1
     # 书堆
     pile_of_books:
       enabled: true
-      shapless: true # 无序合成
+      pattern:
+        - AA
+        - AX
       ingredients:
         A: chinesestyle:chinese_book
-        B: chinesestyle:chinese_book
-        C: chinesestyle:chinese_book
       result:
         item: chinesestyle:pile_of_books
         amount: 2
@@ -296,6 +295,47 @@ recipes:
       result:
         item: chinesestyle:imperial_jade_seal
         amount: 1  
+    # 香炉
+    incense_burner:
+      enabled: true
+      pattern:
+      - CXC
+      - CDC
+      - CCC
+      ingredients:
+        C: COPPER_INGOT
+        D: SAND
+      result: 
+        item: chinesestyle:incense_burner
+        amount: 1
+    # 香炉（带香）
+    incense_burner_with_incense:
+      enabled: true
+      pattern:
+      - CXC
+      - CDC
+      - CCC
+      ingredients:
+        C: COPPER_INGOT
+        D: SAND
+        X: END_ROD
+      result: 
+        item: chinesestyle:incense_burner_with_incense
+        amount: 1
+    # 长枕头
+    long_pillow:
+      enabled: true
+      pattern:
+      - YRY
+      - WWW
+      - YRY
+      ingredients:
+        Y: YELLOW_DYE
+        R: RED_DYE
+        W: WHITE_WOOL
+      result: 
+        item: chinesestyle:long_pillow
+        amount: 1
   # 烧炼配方
   cooking: 
     blue_brick:
