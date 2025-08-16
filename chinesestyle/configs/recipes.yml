@@ -64,12 +64,11 @@ recipes:
         item: chinesestyle:chair
         amount: 1
     # 坐垫
-    cushion:
+   cushion:
       enabled: true
       pattern:
-        - XXX
-        - WWW
-        - XXX
+        - WW
+        - WW
       ingredients:
         W: WHEAT
       result:
