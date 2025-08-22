@@ -613,6 +613,44 @@ recipes:
         result:  
           item: chinesestyle:standing_lamp
           amount: 1
+    # 石灯
+    stone_lamp:
+        enabled: true  
+        pattern:  
+        - SSS  
+        - XLX  
+        - XBX 
+        ingredients:  
+          S: STONE_BRICK_STAIRS
+          L: LANTERN
+          B: STONE_BRICKS
+        result:  
+          item: chinesestyle:stone_lamp
+          amount: 1
+    # 须弥石座
+    sumi_stone_seat:
+        enabled: true  
+        pattern:  
+        - XXX  
+        - CCC  
+        - XXX 
+        ingredients:  
+          C: CHISELED_TUFF_BRICKS
+        result:  
+          item: chinesestyle:sumi_stone_seat
+          amount: 1
+    # 茶框（空）
+    tea_basket:
+        enabled: true  
+        pattern:  
+        - BXB 
+        - BXB  
+        - BBB 
+        ingredients:  
+          B: BAMBOO      
+        result:  
+          item: chinesestyle:tea_basket
+          amount: 1
   # 烧炼配方
   cooking: 
     blue_brick:
