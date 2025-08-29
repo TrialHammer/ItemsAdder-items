@@ -702,6 +702,21 @@ recipes:
         result:  
           item: chinesestyle:window_2
           amount: 1
+     # 青玉寿字勾云夔龙纹烛台
+    jsapphire_longevity_word_gouyun_kui_dragon_pattern_candlestick:
+        enabled: true  
+        pattern:  
+        - XAX
+        - XBX
+        - DCD
+        ingredients:  
+          A: candle
+          B: BLOCK_OF_QUARTZ
+          C: WHITE_GLAZED_TERRACOTTA
+          D: GOLD_INGOT     
+        result:  
+          item: chinesestyle:sapphire_longevity_word_gouyun_kui_dragon_pattern_candlestick
+          amount: 1 
   # 烧炼配方
   cooking: 
     blue_brick:
