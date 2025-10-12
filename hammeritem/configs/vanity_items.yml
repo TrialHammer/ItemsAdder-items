@@ -1,0 +1,22 @@
+info:
+  namespace: hammeritem
+items:
+    equipment_straw_hat:
+      display_name: "&6遮阳草帽"
+      resource:
+        material: CHAINMAIL_HELMET
+      components_nbt_file: "straw_hat.json"
+      lore:
+          - '&7戴在头上可以降温'
+
+recipes:
+  crafting_table:
+    equipment_straw_hat:
+      enabled: true
+      pattern:
+        - S
+      ingredients:
+        S: chinesestyle:straw_hat
+      result:
+        item: hammeritem:equipment_straw_hat
+        amount: 1

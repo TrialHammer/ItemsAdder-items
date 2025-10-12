@@ -21,3 +21,35 @@ categories:
       - hammeritem:wuren_mooncake
       - hammeritem:mooncake
       - hammeritem:flat_mooncake
+   save_the_moonday:
+    enabled: true
+    icon: hammeritem:yolk_mooncake
+    name: '中秋-拯救大饼'
+    items:
+      - hammeritem:kita_mooncake
+      - hammeritem:nijika_mooncake
+      - hammeritem:hard_mooncake
+      - hammeritem:celeste_mooncake
+      - hammeritem:icy_mooncake_alt
+      - hammeritem:yuzu_mooncake
+      - hammeritem:silk_mooncake
+      - hammeritem:genshin_mooncake
+      - hammeritem:stardrew_mooncake
+      - hammeritem:loutus_yolk_mooncake
+      - hammeritem:redbean_mooncake
+      - hammeritem:icypurple_mooncake
+      - hammeritem:coco_mooncake
+      - hammeritem:pork_mooncake
+      - hammeritem:tea_mooncake
+      - hammeritem:eaten_seasame_mooncake
+      - hammeritem:yolk_mooncake
+      - hammeritem:cream_coconut_mooncake
+      - hammeritem:prismarine_mooncake
+      - hammeritem:creeper_mooncake
+      - hammeritem:nether_mooncake
+  vanity_item:
+    enabled: true
+    icon: hammeritem:equipment_straw_hat
+    name: '时装物品'
+    items:
+      - hammeritem:equipment_straw_hat

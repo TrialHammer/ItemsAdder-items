@@ -1,0 +1,663 @@
+info:
+  namespace: hammeritem
+items:
+  kita_mooncake:
+    display_name: "&c喜多月饼"
+    resource:
+      generate: true
+      material: APPLE
+      textures:
+        - items/mooncake_addition/kita_mooncake.png
+    lore:
+      - '&7吃了会变成逃跑的吉他手'
+    events:
+      eat:
+        feed:
+          amount: 4
+          saturation: 2
+        potion_effect:
+            type: SPEED
+            duration: 4800
+            amplifier: 1
+  nijika_mooncake:
+    display_name: "&e虹夏月饼"
+    resource:
+        generate: true
+        material: APPLE
+        textures:
+          - items/mooncake_addition/nijika_mooncake.png
+    lore:
+        - '&7吃了会变成彩虹大力鼓手'
+    events:
+        eat:
+          feed:
+            amount: 4
+            saturation: 2
+          potion_effect:
+              type: STRENGTH
+              duration: 4800
+              amplifier: 1
+  hard_mooncake:
+      display_name: "&7坚硬月饼"
+      resource:
+        generate: true
+        material: APPLE
+        textures:
+          - items/mooncake_addition/hard_mooncake.png
+      lore:
+        - '&7虽然外壳坚硬的吓人，不过里面的馅料竟然是棉花糖！'
+      events:
+        eat:
+          feed:
+            amount: 4
+            saturation: 2
+          potion_effect:
+              type: LUCK
+              duration: 1200
+              amplifier: 1
+          potion_effect_1:
+              type: LEVITATION
+              duration: 60
+              amplifier: 0
+  celeste_mooncake:
+      display_name: "&b蔚蓝月饼"
+      resource:
+        generate: true
+        material: APPLE
+        textures:
+          - items/mooncake_addition/celeste_mooncake.png
+      lore:
+        - '&7山就在那里'
+      events:
+        eat:
+          feed:
+            amount: 4
+            saturation: 2
+          potion_effect:
+              type: JUMP_BOOST
+              duration: 4800
+              amplifier: 1
+  icy_mooncake_alt:
+      display_name: "&b冰皮月饼"
+      resource:
+        generate: true
+        material: APPLE
+        textures:
+          - items/mooncake_addition/icy_mooncake_alt.png
+      lore:
+        - '&7一个非常好吃的月饼'
+      events:
+        eat:
+          feed:
+            amount: 4
+            saturation: 2
+          potion_effect:
+              type: MINING_FATIGUE
+              duration: 108000
+              amplifier: 2
+          potion_effect_2:
+              type: SLOWNESS
+              duration: 1800
+              amplifier: 1
+  yuzu_mooncake:
+      display_name: "&6柚子月饼"
+      resource:
+        generate: true
+        material: APPLE
+        textures:
+          - items/mooncake_addition/yuzu_mooncake.png
+      lore:
+        - '&7Ciallo～(∠・ω< )⌒★'
+      events:
+        eat:
+          feed:
+            amount: 4
+            saturation: 2
+          potion_effect:
+              type: LUCK
+              duration: 4800
+              amplifier: 1
+          execute_commands:
+            command1:
+              command: tp {player} 3701 71 1145
+              as_console: true
+              silent: TRUE
+  silk_mooncake:
+      display_name: "&f丝之饼"
+      resource:
+        generate: true
+        material: APPLE
+        textures:
+          - items/mooncake_addition/silk_mooncake.png
+      lore:
+        - '&7我真幸运'
+      events:
+        eat:
+          feed:
+            amount: 4
+            saturation: 2
+          potion_effect:
+              type: LUCK
+              duration: 4800
+              amplifier: 1
+  genshin_mooncake:
+      display_name: "&f冰皮原神月饼"
+      resource:
+        generate: true
+        material: APPLE
+        textures:
+          - items/mooncake_addition/genshin_mooncake.png
+      lore:
+        - '&7吃了可以十连双金吗'
+      events:
+        eat:
+          feed:
+            amount: 4
+            saturation: 2
+          potion_effect:
+              type: LUCK
+              duration: 4800
+              amplifier: 1
+          execute_commands:
+            command1:
+              command: give {player} diamond 1
+              as_console: true
+              silent: TRUE   
+  stardrew_mooncake:
+      display_name: "&e星之月饼"
+      resource:
+        generate: true
+        material: APPLE
+        textures:
+          - items/mooncake_addition/stardrew_mooncake.png
+      lore:
+        - '&7使用了新鲜的杨桃，美洲大树莓和蛋黄酱'
+      events:
+        eat:
+          feed:
+            amount: 4
+            saturation: 2
+          potion_effect:
+              type: HEALTH_BOOST
+              duration: 2400
+              amplifier: 2
+  loutus_yolk_mooncake:
+      display_name: "&d莲蓉蛋黄月饼"
+      resource:
+        generate: true
+        material: APPLE
+        textures:
+          - items/mooncake_addition/loutus_yolk_mooncake.png
+      lore:
+        - '&7清澈透亮的莲蓉和恰到好处的烤制'
+      events:
+        eat:
+          feed:
+            amount: 4
+            saturation: 2
+          potion_effect:
+              type: REGENERATION
+              duration: 2400
+              amplifier: 1
+  redbean_mooncake:
+      display_name: "&4豆沙月饼"
+      resource:
+        generate: true
+        material: APPLE
+        textures:
+          - items/mooncake_addition/redbean_mooncake.png
+      lore:
+        - '&7经典口味'
+      events:
+        eat:
+          feed:
+            amount: 4
+            saturation: 2
+          potion_effect:
+              type: REGENERATION
+              duration: 1200
+              amplifier: 1   
+  icypurple_mooncake:
+      display_name: "&b冰皮紫薯月饼"
+      resource:
+        generate: true
+        material: APPLE
+        textures:
+          - items/mooncake_addition/icypurple_mooncake.png
+      lore:
+        - '&7很可爱'
+      events:
+        eat:
+          feed:
+            amount: 4
+            saturation: 2
+          potion_effect:
+              type: REGENERATION
+              duration: 300
+              amplifier: 1     
+  coco_mooncake:
+      display_name: "&4巧克力月饼"
+      resource:
+        generate: true
+        material: APPLE
+        textures:
+          - items/mooncake_addition/coco_mooncake.png
+      lore:
+        - '&7巧克力从里面流出来了！'
+      events:
+        eat:
+          feed:
+            amount: 4
+            saturation: 2
+          potion_effect:
+              type: REGENERATION
+              duration: 150
+              amplifier: 1 
+  pork_mooncake:
+      display_name: "&f鲜肉月饼"
+      resource:
+        generate: true
+        material: APPLE
+        textures:
+          - items/mooncake_addition/pork_mooncake.png
+      lore:
+        - '&7好吃！好吃！'
+      events:
+        eat:
+          feed:
+            amount: 12
+            saturation: 8
+  tea_mooncake:
+      display_name: "&2抹茶月饼"
+      resource:
+        generate: true
+        material: APPLE
+        textures:
+          - items/mooncake_addition/tea_mooncake.png
+      lore:
+        - '&7口感清爽'
+      events:
+        eat:
+          feed:
+            amount: 4
+            saturation: 2
+          potion_effect:
+              type: SPEED
+              duration: 4800
+              amplifier: 0    
+  eaten_seasame_mooncake:
+      display_name: "&2瓜子月饼"
+      resource:
+        generate: true
+        material: APPLE
+        textures:
+          - items/mooncake_addition/eaten_seasame_mooncake.png
+      lore:
+        - '&7果仁月饼来袭'
+      events:
+        eat:
+          feed:
+            amount: 4
+            saturation: 2
+          potion_effect:
+              type: ABSORPTION
+              duration: 1200
+              amplifier: 0     
+  yolk_mooncake:
+      display_name: "&6蛋黄月饼"
+      resource:
+        generate: true
+        material: APPLE
+        textures:
+          - items/mooncake_addition/yolk_mooncake.png
+      lore:
+        - '&7香喷喷的蛋黄月饼'
+      events:
+        eat:
+          feed:
+            amount: 12
+            saturation: 8   
+  cream_coconut_mooncake:
+      display_name: "&f奶油椰蓉月饼"
+      resource:
+        generate: true
+        material: APPLE
+        textures:
+          - items/mooncake_addition/cream_coconut_mooncake.png
+      lore:
+        - '&7甜滋滋的酥软椰蓉'
+      events:
+        eat:
+          feed:
+            amount: 12
+            saturation: 8  
+  prismarine_mooncake:
+      display_name: "&f海晶月饼"
+      resource:
+        generate: true
+        material: APPLE
+        textures:
+          - items/mooncake_addition/prismarine_mooncake.png
+      lore:
+        - '&7欸，我吃了什么进肚子里了？怎么会发光？'
+      events:
+        eat:
+          feed:
+            amount: 4
+            saturation: 2
+          potion_effect:
+              type: GLOWING
+              duration: 600
+              amplifier: 0     
+  creeper_mooncake:
+      display_name: "&a苦力怕月饼"
+      resource:
+        generate: true
+        material: APPLE
+        textures:
+          - items/mooncake_addition/creeper_mooncake.png
+      lore:
+        - '&7艺术就是？'
+      events:
+        eat:
+          feed:
+            amount: 4
+            saturation: 2
+          execute_commands:
+            command1:
+              command: execute at {player} run particle minecraft:explosion ^ ^1 ^
+              as_console: true
+            command2:
+              command: execute at {player} run playsound minecraft:entity.generic.explode player @a ~ ~ ~
+              as_console: true
+            command3:
+              command: execute at {player} run execute as @e[distance=..3] run execute if data entity @s AbsorptionAmount run damage @s 5 minecraft:player_explosion by {player}
+              as_console: true
+  nether_mooncake:
+      display_name: "&6地狱月饼"
+      resource:
+        generate: true
+        material: APPLE
+        textures:
+          - items/mooncake_addition/nether_mooncake.png
+      lore:
+        - '来自地狱的特产，似乎在不同季节作用不同？'
+      events:
+        eat:
+          feed:
+            amount: 4
+            saturation: 2
+          execute_commands:
+            command1:
+              command: rs temperature modify {player} 20 600
+              as_console: true
+              silent: TRUE
+              
+recipes:
+  crafting_table:
+    kita_mooncake:
+      enabled: true
+      pattern:
+        - SSS
+        - CTC
+        - SSS
+      ingredients:
+        S: WHEAT
+        C: STRING
+        T: RED_DYE
+      result:
+        item: hammeritem:kita_mooncake
+      amount: 1
+    nijika_mooncake:
+      enabled: true
+      pattern:
+        - SSS
+        - CTC
+        - SSS
+      ingredients:
+        S: WHEAT
+        C: STRING
+        T: YELLOW_DYE
+      result:
+        item: hammeritem:nijika_mooncake
+      amount: 1
+    hard_mooncake:
+      enabled: true
+      pattern:
+        - SSS
+        - SCS
+        - SSS
+      ingredients:
+        S: STONE
+        C: WHITE_WOOL
+      result:
+        item: hammeritem:hard_mooncake
+      amount: 1
+    celeste_mooncake:
+      enabled: true
+      pattern:
+        - SCS
+        - STS
+        - SSS
+      ingredients:
+        S: WHEAT
+        C: ICE
+        T: FEATHER
+      result:
+        item: hammeritem:celeste_mooncake
+      amount: 1
+    icy_mooncake_alt:
+      enabled: true
+      pattern:  
+        - SSS
+        - CTC
+        - BBB
+      ingredients:
+        S: SNOWBALL
+        C: ROTTEN_FLESH
+        T: SUGAR
+        B: BONE_MEAL
+      result:
+        item: hammeritem:icy_mooncake_alt
+      amount: 1
+    yuzu_mooncake:
+      enabled: true
+      pattern:
+        - SCS
+        - STS
+        - SSS
+      ingredients:  
+        S: WHEAT
+        C: ORANGE_DYE
+        T: APPLE
+      result:
+        item: hammeritem:yuzu_mooncake
+      amount: 1
+    silk_mooncake:
+      enabled: true
+      pattern:
+        - SCS
+        - STS
+        - SSS
+      ingredients:
+        S: WHEAT
+        C: RED_DYE
+        T: STRING
+      result: 
+        item: hammeritem:silk_mooncake
+      amount: 1
+    genshin_mooncake:
+      enabled: true
+      pattern:
+        - SCS
+        - STS
+        - SSS
+      ingredients:
+        S: WHEAT
+        C: ICE
+        T: DIAMOND
+      result:
+        item: hammeritem:genshin_mooncake
+      amount: 1
+    stardrew_mooncake:
+      enabled: true
+      pattern:
+        - SCS
+        - STS
+        - SSS
+      ingredients:
+        S: WHEAT
+        C: GOLDEN_APPLE
+        T: SLIME_BALL
+      result:
+        item: hammeritem:stardrew_mooncake
+      amount: 1
+    loutus_yolk_mooncake:
+      enabled: true
+      pattern:
+        - STS
+        - SCS
+        - SSS
+      ingredients:
+        S: WHEAT
+        C: EGG
+        T: LILY_PAD
+      result:
+        item: hammeritem:loutus_yolk_mooncake
+      amount: 1
+    redbean_mooncake:
+      enabled: true
+      pattern:
+        - SSS
+        - STS
+        - SSS
+      ingredients:
+        S: WHEAT
+        T: SWEET_BERRIES
+      result:
+        item: hammeritem:redbean_mooncake
+      amount: 1
+    icypurple_mooncake:
+      enabled: true
+      pattern:
+        - SCS
+        - STS
+        - SSS
+      ingredients:
+        S: WHEAT
+        C: ICE
+        T: PURPLE_DYE
+      result:
+        item: hammeritem:icypurple_mooncake
+      amount: 1
+    coco_mooncake:
+      enabled: true
+      pattern:
+        - SSS
+        - SCS
+        - SSS
+      ingredients:
+        S: WHEAT
+        C: COCOA_BEANS
+      result:
+        item: hammeritem:coco_mooncake
+      amount: 1
+    pork_mooncake:
+      enabled: true
+      pattern:
+        - SSS
+        - SCS
+        - SSS
+      ingredients:
+        S: WHEAT
+        C: PORKCHOP
+      result:
+        item: hammeritem:pork_mooncake
+      amount: 1
+    tea_mooncake:
+      enabled: true
+      pattern:
+        - SSS
+        - STS
+        - SSS
+      ingredients:
+        S: WHEAT
+        T: FERN
+      result:
+        item: hammeritem:tea_mooncake
+      amount: 1
+    eaten_seasame_mooncake:
+      enabled: true
+      pattern:
+        - SCS
+        - STS
+        - SSS
+      ingredients:
+        S: WHEAT
+        C: PUMPKIN_SEEDS
+        T: MELON_SEEDS
+      result:
+        item: hammeritem:eaten_seasame_mooncake
+      amount: 1
+    yolk_mooncake:
+      enabled: true
+      pattern:
+        - STS
+        - SCS
+        - SSS
+      ingredients:
+        S: WHEAT
+        C: EGG
+        T: CARROT
+      result: 
+        item: hammeritem:yolk_mooncake
+      amount: 1
+    cream_coconut_mooncake:
+      enabled: true
+      pattern:
+        - SSS
+        - CTC
+        - SSS
+      ingredients:
+        S: WHEAT
+        C: SUGAR
+        T: MILK_BUCKET
+      result:
+        item: hammeritem:cream_coconut_mooncake
+      amount: 1
+    prismarine_mooncake:
+      enabled: true
+      pattern:
+        - SSS
+        - STS
+        - SSS
+      ingredients:
+        S: WHEAT
+        T: SEA_LANTERN
+      result:
+        item: hammeritem:prismarine_mooncake
+      amount: 1
+    creeper_mooncake:
+      enabled: true
+      pattern:
+        - SSS
+        - STS
+        - SSS
+      ingredients:
+        S: WHEAT
+        T: TNT
+      result:
+        item: hammeritem:creeper_mooncake
+      amount: 1
+    nether_mooncake:
+      enabled: true
+      pattern:
+        - SSS
+        - STS
+        - SSS
+      ingredients:
+        S: NETHER_WART
+        T: BLAZE_ROD
+      result:
+        item: hammeritem:nether_mooncake
+      amount: 1
