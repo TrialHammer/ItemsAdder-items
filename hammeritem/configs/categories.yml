@@ -21,7 +21,7 @@ categories:
       - hammeritem:wuren_mooncake
       - hammeritem:mooncake
       - hammeritem:flat_mooncake
-   save_the_moonday:
+  save_the_moonday:
     enabled: true
     icon: hammeritem:yolk_mooncake
     name: '中秋-拯救大饼'
